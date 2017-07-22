@@ -1,0 +1,14 @@
+{
+  "name": "hellotmy",
+  "version": "1.0.0",
+  "description": "create package demo",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "hlkai",
+  "license": "ISC"
+}
