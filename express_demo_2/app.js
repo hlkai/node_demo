@@ -25,6 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 
+app.use('/account', require('./routes/account'));
+
 app.get('/hello', function(req, res, next) {
   res.send('hello, Express!');
 });
